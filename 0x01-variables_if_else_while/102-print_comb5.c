@@ -15,7 +15,7 @@ int main(void)
 	{
 		i = a / 10;
 		j = a % 10;
-	  	
+
 		for (b = 0; b < 100; b++)
 		{
 			k = b / 10;
