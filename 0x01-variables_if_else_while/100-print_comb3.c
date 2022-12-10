@@ -17,7 +17,7 @@ int main(void)
 	{
 		b = a / 10;
 		c = a % 10;
-		if ( c > b)
+		if (c > b)
 		{
 			putchar(b + '0');
 			putchar(c + '0');
