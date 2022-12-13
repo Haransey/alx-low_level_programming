@@ -2,7 +2,7 @@
 
 /**
  * _islower - this checks lowercase
- * @a - input
+ * @a:  input
  * Description- this is used to check the lowercase
  * Return: 1 if int c is lowercase, 0 if otherwise
  */
