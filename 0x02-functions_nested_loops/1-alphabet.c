@@ -2,7 +2,7 @@
 
 /**
  * main - main block
- * Description: Print the alphabet in lower case
+ * Description: Print the alphabet in lower case using print_alphabet
  * Return: 0
  */
 
