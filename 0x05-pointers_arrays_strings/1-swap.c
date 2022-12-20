@@ -2,7 +2,8 @@
 
 /**
  * swap_int -swap two integers
- * @n: pointer to n
+ * @a: pointer to a to be swap
+ * @b: pointer to b
  *
  * Return: void
  */
