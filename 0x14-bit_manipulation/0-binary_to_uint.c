@@ -27,6 +27,7 @@ unsigned int binary_to_uint(const char *b)
 {
 	int i, j = 0;
 	unsigned int sum = 0;
+
 	if (!b)
 		return (0);
 	for (i = 0; b[i] != '\0'; i++)
@@ -36,6 +37,7 @@ unsigned int binary_to_uint(const char *b)
 		else
 			return (0);
 	}
+
 	while (i > 0)
 	{
 		int a = b[i - 1];
@@ -48,5 +50,6 @@ unsigned int binary_to_uint(const char *b)
 		i--;
 		j++;
 	}
+
 	return (sum);
 }
